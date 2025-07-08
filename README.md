@@ -46,3 +46,9 @@ Ce script implémente un modèle de prédiction des prix d'actions basé sur un 
 ## suiteConway.py
 La suite de Conway est une séquence de nombres où chaque terme est construit en décrivant le précédent. Exemple : 1 11 21 1211 
 Le script génère cette suite pour un nombre donné et un nombre de répétitions spécifié. Il utilise une fonction pour calculer chaque terme en décrivant les chiffres du terme précédent. Ensuite, il affiche les termes de la suite dans une interface graphique Tkinter, où chaque chiffre est représenté par une couleur spécifique.
+
+## ToyModelPierrePapierCiseaux.py
+Ce script implémente un modèle de réseau de neurones pour prédire les résultats du jeu "Pierre-Papier-Ciseaux" en fonction des données d'entrée. Il utilise un fichier CSV contenant des données de jeu, divise ces données en caractéristiques (x) et labels (y), et entraîne un modèle séquentiel avec deux couches denses. La première couche utilise une activation ReLU, et la seconde une activation sigmoïde. Le modèle est compilé avec l'optimiseur Adam et une fonction de perte `binary_crossentropy`. Après l'entraînement, il peut prédire les résultats pour de nouvelles données et sauvegarder le modèle pour une utilisation future.
+
+## ToyModelPierrePapierCiseaux.py
+Ce script implémente un modèle de réseau de neurones pour prédire les résultats du jeu "Pierre-Papier-Ciseaux" en fonction des données d'entrée. Il utilise un fichier CSV contenant des données de jeu, divise ces données en caractéristiques (x) et labels (y), et entraîne un modèle séquentiel avec deux couches denses. La première couche utilise une activation ReLU, et la seconde une activation sigmoïde. Le modèle est compilé avec l'optimiseur Adam et une fonction de perte `binary_crossentropy`. Après l'entraînement, il peut prédire les résultats pour de nouvelles données et sauvegarder le modèle pour une utilisation future.
