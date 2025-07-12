@@ -50,5 +50,14 @@ Le script génère cette suite pour un nombre donné et un nombre de répétitio
 ## ToyModelPierrePapierCiseaux.py
 Ce script implémente un modèle de réseau de neurones pour prédire les résultats du jeu "Pierre-Papier-Ciseaux" en fonction des données d'entrée. Il utilise un fichier CSV contenant des données de jeu, divise ces données en caractéristiques (x) et labels (y), et entraîne un modèle séquentiel avec deux couches denses. La première couche utilise une activation ReLU, et la seconde une activation sigmoïde. Le modèle est compilé avec l'optimiseur Adam et une fonction de perte `binary_crossentropy`. Après l'entraînement, il peut prédire les résultats pour de nouvelles données et sauvegarder le modèle pour une utilisation future.
 
+## Testat.py
+Ce script modélise un test diagnostique appliqué à une population donnée. Il calcule :
+- le nombre de vrais positifs (malades testés positifs) et de faux négatifs,
+- le nombre de vrais négatifs (sains testés négatifs) et de faux positifs,
+- la probabilité d’être malade si le test est positif (valeur prédictive positive),
+- la probabilité d’être sain si le test est négatif (valeur prédictive négative).
+  
+Le résultat est affiché sous forme de tableau NumPy et sous forme lisible via la méthode __str__().
+
 ## ToyModelPierrePapierCiseaux.py
 Ce script implémente un modèle de réseau de neurones pour prédire les résultats du jeu "Pierre-Papier-Ciseaux" en fonction des données d'entrée. Il utilise un fichier CSV contenant des données de jeu, divise ces données en caractéristiques (x) et labels (y), et entraîne un modèle séquentiel avec deux couches denses. La première couche utilise une activation ReLU, et la seconde une activation sigmoïde. Le modèle est compilé avec l'optimiseur Adam et une fonction de perte `binary_crossentropy`. Après l'entraînement, il peut prédire les résultats pour de nouvelles données et sauvegarder le modèle pour une utilisation future.
